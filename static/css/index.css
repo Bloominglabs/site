@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+#hero {
+  background-image: url("../images/bloominglabsExterior.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 600px;
+}
+
+.shadow {
+  text-shadow: -1px 1px 1px white;
+}
+
+#navBar a{
+  color: black;
+}
+
+.content {
+  margin-bottom: 25px;
+}
+
+.contactIcons {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+/*sticky footer*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 175px;
+  font-family: "Exo", sans-serif!important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 175px;
+  background-color: #d3d3d3;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
